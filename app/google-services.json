@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "198062130097",
+    "firebase_url": "https://qrcodegenerator-54651-default-rtdb.firebaseio.com",
+    "project_id": "qrcodegenerator-54651",
+    "storage_bucket": "qrcodegenerator-54651.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198062130097:android:10f1308510f062a0d2f390",
+        "android_client_info": {
+          "package_name": "tirumalesh.app.qrcodegeneratorapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5u_tzQbwNQxJGI505RNjUY74CBeIIaFQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

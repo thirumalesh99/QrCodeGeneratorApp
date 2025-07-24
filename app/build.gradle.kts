@@ -7,12 +7,12 @@ plugins {
 
 android {
     namespace = "tirumalesh.app.qrcodegeneratorapp"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "tirumalesh.app.qrcodegeneratorapp"
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
@@ -68,15 +68,25 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+    implementation(libs.firebase.database.ktx)
+
 
     implementation("com.google.zxing:core:3.5.2")
     implementation("androidx.core:core-ktx:1.10.1")
+
+    implementation("androidx.compose.animation:animation")
+
 
     // In your app's build.gradle
     implementation("androidx.camera:camera-camera2:1.3.0")
     implementation("androidx.camera:camera-lifecycle:1.3.0")
     implementation("androidx.camera:camera-view:1.3.0")
     implementation("com.google.mlkit:barcode-scanning:17.1.0")
+
+    implementation("androidx.navigation:navigation-compose:2.7.0") // Use the latest stable version
+
+
+    implementation("io.coil-kt:coil-compose:2.4.0")
 
     // Room components
     implementation("androidx.room:room-runtime:2.6.1")
